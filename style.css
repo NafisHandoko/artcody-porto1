@@ -1,0 +1,106 @@
+:root{
+    --primary-dark-color: #2A333C;
+    --primary-light-color: #FF5050;
+    --secondary-dark-color: #353F47;
+    --secondary-light-color: white;
+    
+    --border-radius: 22px;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;;
+}
+
+body{
+    margin: 0;
+    background-color: var(--primary-dark-color);
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    color: var(--secondary-light-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+}
+
+/* .container{
+    max-width: 85%;
+    width: 85%;
+}
+
+.nav-container{
+    width: 90%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-items-start{
+    align-items: flex-start;
+}
+
+.align-items-end{
+    align-items: flex-end;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-start{
+    justify-content: flex-start;
+}
+
+.justify-content-end{
+    justify-content: flex-end;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+} */
+
+/* .justify-self-start{
+    justify-self: flex-start;
+}
+.justify-self-end{
+    justify-self: flex-end;
+} */
+
+/* .text-center{
+    text-align: center;
+}
+
+header{
+    background-image: url(/assets/images/header.jpg);
+    background-size: cover;
+    background-position: center;
+} */

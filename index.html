@@ -5,9 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Endra Wira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="bg-[url('assets/images/header.jpg')] flex flex-col text-white h-screen bg-center bg-cover bg-no-repeat bg-[#2A333C] bg-blend-multiply">
+        <nav class="container mx-auto text-lg flex flex-col items-center h-1/6 justify-center">
+            <ul class="space-x-8">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="home" class="container mx-auto flex flex-col items-center h-5/6 justify-center">
+            <p class="text-2xl mb-3 font-medium">WELCOME TO MY WORLD</p>
+            <p class="text-7xl font-semibold">I am <span class="text-2xl underline decoration-[#FF5050] decoration-2 text-[#FF5050]">Endra Wira</span> Photographer</p>
+            <div class="flex flex-row space-x-3 mt-7">
+                <a href="#" class="border-2 rounded-3xl px-6 py-2">Contact Me</a>
+                <a href="#" class="border-2 rounded-3xl px-6 py-2 border-[#FF5050] bg-[#FF5050]">Download CV</a>
+            </div>
+        </div>
+    </header>
+    <section id="about"></section>
 </body>
 </html>
