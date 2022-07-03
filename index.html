@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="bg-[url('assets/images/header.jpg')] flex flex-col text-white h-screen bg-center bg-cover bg-no-repeat bg-[#2A333C] bg-blend-multiply">
+    <header class="bg-[url('assets/images/header.jpg')] flex flex-col text-white h-screen bg-center bg-cover bg-no-repeat bg-[#2A333C] bg-blend-soft-light">
         <nav class="container mx-auto text-lg flex flex-col items-center h-1/6 justify-center">
             <ul class="space-x-8">
                 <li><a href="#">Home</a></li>
@@ -31,6 +31,17 @@
             </div>
         </div>
     </header>
-    <section id="about"></section>
+    <section id="about" class="container mx-auto flex flex-row space-x-20 my-36">
+        <div class="rounded-3xl bg-[url('assets/images/about.jpg')] bg-top md:w-1/2 bg-cover h-[550px] bg-[#2A333C] bg-blend-soft-light"></div>
+        <div class="flex flex-col md:w-1/2 space-y-7 items-start">
+            <p class="font-semibold text-2xl">ABOUT ME</p>
+            <p class="text-4xl font-semibold">Hi there, I'm Endra Wiranto</p>
+            <p class="font-semibold text-2xl">PHOTOGRAPHER AND VIDEOGRAPHER</p>
+            <p class="font-semibold text-lg">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices eget viverra viverra nunc lacus. Aliquam aliquet adipiscing sed vitae, eu nunc eleifend. Massa aenean nulla vitae ipsum viverra turpis a leo nunc.
+            </p>
+            <a href="#" class="text-white border-2 rounded-3xl px-6 py-2 border-[#FF5050] bg-[#FF5050]">Download CV</a>
+        </div>
+    </section>
 </body>
 </html>
