@@ -35,6 +35,11 @@ li{
     display: inline-block;
 }
 
+.scrolled{
+    background-color: var(--primary-dark-color) !important;
+    transition: background-color 200ms linear;
+}
+
 /* .container{
     max-width: 85%;
     width: 85%;

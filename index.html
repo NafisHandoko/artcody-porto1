@@ -8,12 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="bg-[url('assets/images/header.jpg')] flex flex-col text-white h-screen bg-center bg-cover bg-no-repeat bg-[#2A333C] bg-blend-soft-light">
-        <nav class="w-full text-lg flex flex-col items-center h-1/6 justify-center fixed">
+        <nav id="nav" class="w-full text-lg flex flex-col items-center h-1/6 justify-center fixed">
             <ul class="space-x-8">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -43,5 +44,6 @@
             <a href="#" class="text-white border-2 rounded-3xl px-6 py-2 border-[#FF5050] bg-[#FF5050]">Download CV</a>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
